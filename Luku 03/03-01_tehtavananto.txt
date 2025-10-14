@@ -1,0 +1,22 @@
+5.1 Elementin sisällön muokkaaminen
+
+HTML-sivulta löytyy <p>-tyypin elementti, jolla on id "teksti". 
+Muokkaa sen sisältö esimerkkitulostuksen mukaiseksi 
+console.log()-komentojen välissä.
+
+<body>
+    <p id="teksti">Muokkaa minua!</p>
+</body>
+
+Example output:
+
+Muokkaa minua!
+JavaScript on helppoa ja hauskaa!
+
+function func() {
+	console.log(document.getElementById("teksti").innerHTML);
+
+// Put your code here
+
+    console.log(document.getElementById("teksti").innerHTML);
+}
