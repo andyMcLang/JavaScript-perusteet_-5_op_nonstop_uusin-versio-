@@ -1,0 +1,19 @@
+2.1 Match, numeroiden hakeminen
+
+Hae ja tulosta kaikki lauseessa olevat numerot yhtenä taulukkona. 
+Jos lauseessa ei ole numeroita, tulosta "Ei numeroita!". 
+Kokeile tehdä tarkistus onko lauseessa numeroita käyttämällä test()-metodia.
+Example output:
+
+[object Array]
+
+
+==========================================================================================
+
+let lause = "J07ku7 k1rj01774v47 54n0j4 num3r0174 käy77ä3n.";
+
+function tulostaNumerot() {
+
+// Put your code here
+
+}

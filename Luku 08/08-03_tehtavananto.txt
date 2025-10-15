@@ -1,0 +1,32 @@
+2.3 Search, kana ei ole kala
+
+Hae lauseesta sanan "kana" sijainti, 
+käyttämättä sanaa "kana" suoraan 
+(tämän voi kiertää monella tapaa hieman RegExiä käyttäen). 
+Tulosta tyhjiä merkkejä niin monta 
+kuin alkuperäisessä lauseessa oli merkkejä sanaan "kana" asti, 
+ja tämän perään "kana".
+
+Vinkki: String-objektien substr()-metodi 
+on yksi hyvä tapa poimia osa merkkijonosta 
+toiseen merkkijonoon lisäämistä varten. 
+Tekstin muuttaminen pieneksi onnistuu metodilla toLowerCase().
+
+Automaattitesti hoitaa lauseen alustamisen.
+Example output:
+
+APUA, OLEN KANA
+           kana
+
+
+==================================================================================
+
+let lause = "Tähän tulee automaattisesti testattava lause";
+
+function spottaaSiipielain() {
+
+// Put your code here
+
+	console.log(lause);
+	console.log(tuloste);
+}

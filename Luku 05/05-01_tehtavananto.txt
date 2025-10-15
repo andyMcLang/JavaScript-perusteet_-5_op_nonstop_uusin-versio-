@@ -1,0 +1,20 @@
+3.1 Oliot
+
+Luo kaksi oliota, kimmo ja oona. Anna niille esimerkkitulostuksen ja jo olemassaolevan koodin mukaan tarvittavat jäsenet.
+Example output:
+
+Nimi: Kimmo Koodari	Ikä:20
+Nimi: Oona Ohjelmoija	Ikä:32
+Oona on 12 vuotta vanhempi kuin Kimmo
+
+
+==========================================================================================
+
+
+// Put your code here
+
+
+console.log("Nimi: " + kimmo.nimi() + "\tIkä:" + kimmo.ika);
+console.log("Nimi: " + oona.nimi() + "\tIkä:" + oona.ika);
+
+console.log(oona.etunimi + " on " + (oona.ika - kimmo.ika) + " vuotta vanhempi kuin " + kimmo.etunimi);

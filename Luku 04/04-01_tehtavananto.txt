@@ -1,0 +1,15 @@
+3.1 Yksinkertainen funktio
+
+Ohjelman lopussa kutsutaan funktiota jokuFunktio(), 
+joka tulostaa konsoliin "Hei, olen funktio!". Kirjoita tämä funktio.
+Example output:
+
+Hei, olen funktio!
+
+
+==========================================================================================
+
+// Put your code here
+
+
+jokuFunktio();

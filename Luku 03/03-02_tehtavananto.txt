@@ -1,0 +1,17 @@
+5.2 Funktion kutsu HTML-sivulta
+
+HTML-sivu sisältää elementin, jonka id-attribuutti on "numero". 
+Sivu kutsuu funktiota laskeNelio(), jonka tulee hakea elementin sisältö, 
+laskea sen neliö (toinen potenssi), 
+ja tulostaa tämä konsoliin muodossa "Luvun X neliö on Y". 
+Luo tämä funktio. Kyseinen HTML-sivu lataa koodisi, 
+joten voit viitata koodissasi HTML-sivuun document-sanalla.
+
+<body>
+    <p id="numero">0</p>
+    <button id="painike" onclick="laskeNelio()">Paina tästä!</button>
+</body>
+
+Example output:
+
+Luvun 12 neliö on 144

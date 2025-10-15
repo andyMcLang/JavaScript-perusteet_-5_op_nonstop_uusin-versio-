@@ -1,0 +1,14 @@
+3.5 Rest-parametrit
+
+Luo funktio nimeltä sum, joka hyväksyy loputtoman määrän parametreja, 
+ja tulostaa parametrien summan konsolille.
+
+Kutsu ohjelman lopussa summafunktiota seuraavien lauseiden avulla.
+
+sum(1,4,3,8,11);
+sum(10);
+
+Example output:
+
+27
+10

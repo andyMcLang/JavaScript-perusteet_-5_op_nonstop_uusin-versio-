@@ -13,6 +13,9 @@ Example output:
 Muokkaa minua!
 JavaScript on helppoa ja hauskaa!
 
+
+==========================================================================================
+
 function func() {
 	console.log(document.getElementById("teksti").innerHTML);
 

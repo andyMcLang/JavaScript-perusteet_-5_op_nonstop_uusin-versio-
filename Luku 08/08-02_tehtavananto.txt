@@ -1,0 +1,22 @@
+2.2 Replace, tyhjien merkkien korvaaminen
+
+Korvaa lauseessa olevat välimerkit niin, 
+että jokaisen sanan välissä on vain 1 välimerkki. 
+Korvaa lisäksi sana "on" sanalla "oli", mutta vain sana "on", 
+eikä kyseistä yhdistelmää sanoissa jotka sisältävät sen.
+
+Huom! Erikoismerkki \s käsittää kaikki tyhjät merkit (väli, tab ja rivinvaihto).
+Example output:
+
+Odota hetki... Valmista!
+
+
+==========================================================================================
+
+var lause = "Tässä     lauseessa     on     liikaa  välejä.";
+function lauseenKorjaus() {
+
+// Put your code here
+
+	console.log(lause);
+}

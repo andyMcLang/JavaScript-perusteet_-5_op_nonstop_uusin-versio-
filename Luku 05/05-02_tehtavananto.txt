@@ -1,0 +1,24 @@
+3.2Taulukon sisältö
+
+Esittele ja alusta tyhjä taulukko. Luo lisäksi kaksi funktiota:
+
+lisaaLuku() lukee arvon HTML-dokumentissa olevasta tekstikentästä (id="luku") 
+ja lisää tämän taulukon loppuun.
+
+tulostaTiedot() kirjoittaa konsoliin ensin alkioiden lukumäärän, sitten keskiarvon.
+
+HTML-sivulla on kunkin funktion kutsumista varten painikkeet.
+
+<body>
+    <form>
+        <label>Luku:</label>
+        <input type="text" id="luku">
+        <input type="button" id="lisays" onclick="lisaaLuku()" value="Lisää luku">
+        <input type="button" id="tiedot" onclick="tulostaTiedot()" value="Tulosta tiedot">
+    </form>
+</body>
+
+Example output:
+
+Taulukossa on 10 arvoa.
+Lukujen keskiarvo on 36.1

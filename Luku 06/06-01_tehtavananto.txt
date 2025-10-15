@@ -1,0 +1,25 @@
+2.1 Toistofunktio
+
+Kirjoita funktio toisto(), 
+joka toistaa annettua funktiota halutulle arvolle annetun määrän kertoja, 
+sekä kyseiset yksinkertaiset funktiot puolitus() ja nelio().
+
+
+Example output:
+
+25
+6.25
+390625
+Toistoja tulee olla ainakin yksi!
+
+
+===================================================================================
+
+
+// Put your code here
+
+
+console.log(puolitus(50));
+console.log(toisto(5, 200, puolitus));
+console.log(toisto(3,5, nelio));
+console.log(toisto(-1, 99, puolitus));

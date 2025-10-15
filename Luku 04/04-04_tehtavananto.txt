@@ -1,0 +1,10 @@
+3.4 Yksinkertainen nuolifunktio
+
+Funktiota someFunction() kutsutaan ohjelman lopussa tulostamaan 
+"Hi, I'm an arrow function!" konsolille. 
+Kirjoita tämä toiminto käyttämällä nuolifunktiota.
+
+
+Example output:
+
+Hi, I'm an arrow function!

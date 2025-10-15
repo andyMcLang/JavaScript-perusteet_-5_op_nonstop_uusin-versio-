@@ -1,0 +1,36 @@
+2.2For-rakenne ilman for-käskyä
+Max score: 1
+
+Kirjoita funktio loop(). 
+Funktion tulee käyttää argumentteina saamiaan funktioita, 
+mutta for-sanaa ei saa käyttää. while-käsky on sallittu.
+
+
+Example output:
+
+3
+2
+1
+
+
+=================================================================================
+
+
+// Put your code here
+
+
+let value = 3;
+
+const greaterThanZero = function (n) {
+		return n > 0;
+}
+
+const reduceOne = function (n) {
+	return n - 1;
+}
+
+const printValue = function (n) {
+	console.log(n);
+}
+
+loop(value, greaterThanZero, reduceOne, printValue);

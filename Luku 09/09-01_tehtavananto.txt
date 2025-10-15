@@ -1,0 +1,24 @@
+2.1 Moduulin rajapinta
+
+Alla oleva viikonPaiva-moduuli ei vielä sisällä rajapintaa. Kirjoita se, jotta tulostus toimii esimerkin mukaisesti.
+
+
+Example output:
+
+Viikossa on 7 päivää.
+Ohjelmoinnissa päivän Sunnuntai indeksi on yleensä 0
+
+
+=====================================================================================
+
+const viikonPaiva = (function() {
+	const nimet = ["Sunnuntai", "Maanantai", "Tiistai", "Keskiviikko", "Torstai", "Perjantai", "Lauantai"];
+
+// Put your code here
+
+})();
+
+let num = 0;
+
+console.log("Viikossa on " + viikonPaiva.lkm() + " päivää.");
+console.log("Ohjelmoinnissa päivän " + viikonPaiva.nimi(num) + " indeksi on yleensä " + viikonPaiva.numero(viikonPaiva.nimi(num)));

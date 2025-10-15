@@ -1,0 +1,26 @@
+3.3Taulukon metodeja
+
+Kirjoita funktio popAndShift(). 
+Funktion tulee ensin tulostaa taulukoiden array1 ja array2 sisällöt. 
+Tämän jälkeen, taulukosta array2 poistetaan vuorotellen .pop()- 
+ja .shift()-metodeja käyttäen alkioita, lisäten ne taulukon array1 loppuun. 
+Lopussa tulostetaan taulukon array1 sisältö.
+
+Huom! Automaattitesti hoitaa arvojen alustamisen taulukoihin.
+Example output:
+
+Taulukko 1: eka,toka
+Taulukko 2: kolmas,neljäs
+Lopputulos: eka,toka,neljäs,kolmas
+
+
+================================================================================
+
+let array1 = ["eka", "toka"];
+let array2 = ["kolmas", "neljäs"];
+
+function popAndShift() {
+
+// Put your code here
+
+}

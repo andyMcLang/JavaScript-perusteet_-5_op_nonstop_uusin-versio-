@@ -1,0 +1,35 @@
+5.3 Elementin luominen
+
+HTML-dokumentissa on painike, jota painaessa kutsutaan funktiota lisaaPainike(). 
+Funktion tulee luoda uusi <button>-elementti 
+ja lisätä se dokumentin <body>-elementin loppuun. 
+Tätä uutta <button>-elementtiä painettaessa tulee kutsua funktiota tervehdi().
+
+Uuden elementin luominen tarvitsee kaksi komentoa. 
+Lisäksi tällä kertaa tarvitaan myös muutama välivaihe.
+
+document.createElement("[haluttu_HTML-tag]"); luo elementin, 
+muttei vielä lisää sitä sivulle. Tallenna tämä muuttujaan, 
+jotta voit muokata sitä ennen sen lisäämistä dokumenttiin.
+
+Muokkaamalla elementin .innerHTML-arvoa sijoitusoperaattorilla (=) 
+voidaan lisätä painikkeeseen tekstiä. 
+Myös id-arvoa voidaan muokata tällä tavalla. 
+Aseta painikkeen id-attribuutin arvoksi "luotuPainike".
+
+Monimutkaisemmat muutokset, kuten onclick-attribuutin lisääminen, 
+vaatii että käytetään setAttribute()-metodia tähän tapaan: 
+[lisättävän_elementin_nimi].setAttribute("[attribuutti]", "[attribuutin_arvo]").
+
+document.[elementti_johon_lisätään].appendChild([lisättävän_elementin_nimi]); 
+lisää luodun elementin halutun elementin loppuun. 
+Append ei ylikirjoita mitään olemassaolevaa, 
+toisin kuin =-operaattori elementin innerHTML muokatessa.
+
+<body>
+     <button id="painike" onclick="lisaaPainike()">Lisää elementti</button>
+</body>
+
+Example output:
+
+Moikka!

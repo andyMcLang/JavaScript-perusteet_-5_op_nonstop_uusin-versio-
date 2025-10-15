@@ -1,0 +1,40 @@
+2.2 Perintä 
+
+Luo Asiakas-luokka käyttäen prototyyppiä. Asiakkaan tulee periä Henkilo luokka. Asiakkaalle tulee lisäksi parametrit id sekä kulut, joka kuvaa paljonko henkilö on käyttänyt rahaa kyseisessä liikkeessä. Jos kuluja ei erikseen syötetä oliota luodessa, tulee sen arvo olla 0. Lisäksi Asiakas-oliolle tulee tehdä uusi metodi bonus, joka tarkistaa paljonko asiakas on käyttänyt. Jos kulut ovat yli 5000, palautetaan "kulta", jos yli 1000, palautetaan "hopea", jos 1000 tai alle, niin palautetaan "perus".
+
+
+Example output:
+
+Kerttu Leppä
+Matti Meikäläinen
+perus
+Hanna Huippukoodari
+hopea
+Gilbert Goldson
+kulta
+
+
+========================================================================================
+
+function Henkilo(etunimi, sukunimi) {
+	this.etunimi = etunimi;
+	this.sukunimi = sukunimi;
+}
+Henkilo.prototype.nimi = function() {return (this.etunimi + " " + this.sukunimi)}
+
+
+// Put your code here
+
+
+const henkilo = new Henkilo("Kerttu", "Leppä");
+const asiakas1 = new Asiakas("Matti", "Meikäläinen", 1);
+const asiakas2 = new Asiakas("Hanna", "Huippukoodari", 2, 1500);
+const asiakas3 = new Asiakas("Gilbert", "Goldson", 3, 8000);
+
+console.log(henkilo.nimi());
+console.log(asiakas1.nimi());
+console.log(asiakas1.bonus());
+console.log(asiakas2.nimi());
+console.log(asiakas2.bonus());
+console.log(asiakas3.nimi());
+console.log(asiakas3.bonus());

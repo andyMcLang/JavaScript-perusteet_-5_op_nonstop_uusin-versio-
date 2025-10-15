@@ -1,0 +1,26 @@
+3.2 Funktio verkkosivulla
+
+HTML:ssä voidaan asettaa painikkeelle onclick-attribuuttiin funktiokutsu. 
+Tässä tehtävässä meillä on painike, jolta löytyy attribuutti onclick="laskeNelio()".
+
+Verkkosivulla on tekstisyötekenttä (<input type="text">) sekä painike. 
+Painiketta painettaessa kutsutaan funktiota laskeNelio(), 
+joka noutaa tekstikentässä olleen arvon, laskee sen neliön, 
+ja ilmoittaa tuloksen syötekentän alla muodossa "Luvun 4 neliö on 16". 
+Tekstikentän id on "luku" ja tulos näytetään elementissä jonka id on "tulos".
+
+Kirjoita kyseinen funktio. 
+Funktion kutsuminen tapahtuu tehtävän automaattisen testin puolesta.
+
+<body>
+    <form>
+        <label>Luku:</label>
+        <input type="text" id="luku">
+        <input type="button" id="painike" onclick="laskeNelio()" value="Laske neliö">
+    </form>
+    <div id="tulos"></div>
+</body>
+
+Example output:
+
+Luvun 19 neliö on 361

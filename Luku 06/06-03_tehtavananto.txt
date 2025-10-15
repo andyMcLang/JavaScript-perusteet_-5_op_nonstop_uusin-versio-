@@ -1,0 +1,18 @@
+2.3 Mitä nämä funktiot tekevät?
+
+Kirjoita tehtävässä käytetyt kolme funktiota 
+checkFunc(), combineFunc() ja sumFunc(). 
+Päättele niiden toiminta olemassa olevan koodin, 
+niiden nimien sekä esimerkkitulostuksen avulla.
+
+Huom! Funktio isNaN(arvo) on hyvä 
+
+
+Example output:
+
+Taulukossa tekstiä. Yhdistetään sanat:
+Tämän taulukon alkiot muodostavat lauseen 
+Taulukossa vain lukuja. Lasketaan summa:
+143
+Taulukossa tekstiä. Yhdistetään sanat:
+5 kertaa 3 on 15 
