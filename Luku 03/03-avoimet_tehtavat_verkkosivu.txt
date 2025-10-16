@@ -1,0 +1,20 @@
+4.1 Verkkosivu
+
+Kirjoita HTML- ja JavaScript-kieliä käyttäen verkkosivu. 
+Sivulla tulee olla valintaruutu, jonka voi painaa joko "päälle" 
+tai "pois päältä" ja painike, joka sisältää tekstiä 
+kuten esimerkiksi "Paina tästä".
+
+Nappia painettaessa valintaruudun ja painikkeen alle tulostuu joko 
+"ON" jos valintaruutu oli päällä tai "OFF" jos valintaruutu oli pois päältä. 
+Tarvitset tämän toteuttamiseen painikkeen onclick-attribuuttia 
+sekä todennäköisesti JavaScript-funktioita, 
+jotka käsitellään seuraavassa luvussa. 
+Voit siis ensin tehdä vain verkkosivun perusrungon 
+ja palata tähän tehtävään myöhemmin.
+
+Liitä palautukseen .HTML-tiedostosi sisältö, 
+joka itsessään sisältää vaaditut JavaScript-osuudet, 
+tai selkeästi eroteltuna .HTML-tiedoston ja .JS-tiedoston sisällöt, 
+mikäli jaoit ne erilleen.
+

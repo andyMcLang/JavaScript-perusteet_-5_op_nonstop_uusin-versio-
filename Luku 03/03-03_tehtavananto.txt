@@ -33,3 +33,14 @@ toisin kuin =-operaattori elementin innerHTML muokatessa.
 Example output:
 
 Moikka!
+
+
+==========================================================================
+
+function tervehdi() {
+	console.log("Moikka!");
+}
+    
+function lisaaPainike() {
+
+}

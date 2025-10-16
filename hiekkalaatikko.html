@@ -1,24 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/style.css" />
-    <title>Hiekkis</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elementin luominen</title>
+    <script type="text/javascript" src="hiekkalaatikko.js"></script>
   </head>
+
   <body>
-    <header>
-      <h1>Sivulla näkyvä otsikko</h1>
-    </header>
-
-    <article>
-      <p>
-        Sivuilla näytettävä normaali teksti on p-elementin sisällä. Alla on
-        nappi, jota painamalla kutsutaan funktiota "sayHello".
-      </p>
-      <input type="button" value="Tervehdi!" onclick="sayHello()" />
-    </article>
-
-    <!-- ladataan JavaScript-koodit tiedoston lopussa! -->
-    <script src="hiekkalaatikko.js"></script>
+    <button id="painike" onclick="lisaaPainike()">Lisää elementti</button>
   </body>
 </html>
