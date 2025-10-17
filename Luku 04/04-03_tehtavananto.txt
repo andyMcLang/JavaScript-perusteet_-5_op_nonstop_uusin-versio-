@@ -1,12 +1,20 @@
-3.3Parametrit ja paluuarvot
+3.3 Parametrit ja paluuarvot
 
-Täydennä koodiin funktiot noudaArvo() sekä laskePotenssi(). Funktion noudaArvo() tulee hakea annetun parametrin mukaisesta HTML-tekstisyöte-elementistä arvo ja palauttaa se. Funktion laskePotenssi() tulee laskea ja palauttaa annettujen parametrien mukainen luku. Huomaa, että kaikki tulostaminen tulee tapahtua jo valmiiksi toteutetun funktion sisällä.
+Täydennä koodiin funktiot noudaArvo() sekä laskePotenssi(). 
+Funktion noudaArvo() tulee hakea annetun parametrin mukaisesta 
+HTML-tekstisyöte-elementistä arvo ja palauttaa se. 
+Funktion laskePotenssi() tulee laskea 
+ja palauttaa annettujen parametrien mukainen luku. 
+Huomaa, että kaikki tulostaminen tulee tapahtua jo 
+valmiiksi toteutetun funktion sisällä.
 
-Vinkki: Jos eksponentti on 0, tulos on kannasta riippumatta 1. Jos eksponentti on negatiivinen, tulos on 1 / (kanta^eksponentti). Esimerkiksi:
+Vinkki: Jos eksponentti on 0, tulos on kannasta riippumatta 1. 
+Jos eksponentti on negatiivinen, tulos on 1 / (kanta^eksponentti). Esimerkiksi:
 
 2^(-4) = 1 / (2^4) = 1 / 2 / 2 / 2 / 2.
 
-Kannattaa myös pitää mielessä, että return-käskyyn törmätessä poistutaan välittömästi funktiosta, jossa siihen törmättiin.
+Kannattaa myös pitää mielessä, että return-käskyyn törmätessä 
+poistutaan välittömästi funktiosta, jossa siihen törmättiin.
 
 <body>    
     <form>
