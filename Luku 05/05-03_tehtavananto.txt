@@ -1,4 +1,4 @@
-3.3Taulukon metodeja
+3.3 Taulukon metodeja
 
 Kirjoita funktio popAndShift(). 
 Funktion tulee ensin tulostaa taulukoiden array1 ja array2 sisällöt. 

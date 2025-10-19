@@ -1,4 +1,4 @@
-3.2Taulukon sisältö
+3.2 Taulukon sisältö
 
 Esittele ja alusta tyhjä taulukko. Luo lisäksi kaksi funktiota:
 

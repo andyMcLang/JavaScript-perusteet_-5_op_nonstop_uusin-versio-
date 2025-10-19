@@ -1,6 +1,8 @@
 3.1 Oliot
 
-Luo kaksi oliota, kimmo ja oona. Anna niille esimerkkitulostuksen ja jo olemassaolevan koodin mukaan tarvittavat jäsenet.
+Luo kaksi oliota, kimmo ja oona. 
+Anna niille esimerkkitulostuksen 
+ja jo olemassaolevan koodin mukaan tarvittavat jäsenet.
 Example output:
 
 Nimi: Kimmo Koodari	Ikä:20
